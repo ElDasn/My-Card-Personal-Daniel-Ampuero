@@ -1,0 +1,48 @@
+:root {
+
+	--color-1-typo:rgba(100,10,225, 1.0);
+	--color-2-typo:rgba(50,100,100,1.0);
+	--color-3-typo:rgba(34,42,42,1.0);
+}
+
+.container:{
+
+	background-color:var(--color-3-typo);
+	width: 100%;
+	height: 25vh;
+	overflow: hidden;
+	vertical-align: center;
+	text-align: center;
+}
+.cardinfo{
+
+	background-color: var(--color-2-typo);
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+}
+.cardpersonal {
+	margin: auto;
+	background-color: var(--color-1-typo);
+	margin-top: 15%;
+	width: 20%;
+	height: 10vh;
+	overflow: hidden;
+	border-radius: 25px 25px
+	transition: width 2s, height 2s;
+
+}
+.cardimagen img{
+
+	width: 20%;
+	height: 20%;
+	border-radius: 5px 5px;
+}
+.cardpersonal:hover {
+	width: 100%;
+	padding-bottom: 80vh
+	margin-top: 0.1%;
+	transition: width 2s;
+
+}
+
